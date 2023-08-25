@@ -1,0 +1,37 @@
+<html>
+
+<head>
+<script>
+//los arrays se suelen escribir en plural y se usa corchetes 
+let animales = ["Perro", "Gato", "Raton"]
+// primitivo es un nombre
+// no primitivo 
+
+//un objeto describe algo, se usa llaves
+// raza, es clave
+// 'rotwailer, valor'
+let animal = {raza: 'rottwailer', nombre: 'pluto', edad:5, ladrar:()=> { console.log ("WOOF woff")},
+macho:true
+}
+//ray con posiciones
+console.log(animal.nombre)
+
+//ray con typero, tipo de dato
+//console.log(typeof animal)
+
+console.log(typeof animal.ladrar)
+
+let estudiante = {
+    cedula: 1098678567,
+    notas: [{ nota: 3.5 }, { nota: 4.2 }, { nota: 1.9 }],
+    direccion: "Calle 15 # 36-13",
+    repitente: false,
+    edad: 23
+}
+
+let definitiva = (estudiante.notas[0].nota + estudiante.notas[1].nota + estudiante.notas[2].nota) / 3
+console.log(definitiva.toFixed(1))
+</script>
+</head>
+
+<html>
